@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-HLFGLBC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1gschpRKakuqDG2I9IERowAAAAACAAAAAAAQZgAAAAEAACAAAAAgIoJKwA/NughPgyFjOX+L44ehhMke0hEBrrQ2v/EfuAAAAAAOgAAAAAIAACAAAAC9wKTeup/PikFp8g2Wwpjxcx9dC519+DHDV7vUgz7XNJAAAADDvh2zCBMgQb5Bbw1crySpqn3ZUUpuQAQP8v1ZflALTZXqEVKzucmx4etm6ysW+EYbok1JxF9r35FSOaBeJnIzv/H18PAuMAaCk9XEhx+Moial9WD/4XWCSNEHmthjAXtOyqDTyAg0k4n74w6RNDI1ZUhcGHdMQkfBYlpBw11HfxDXQN1xjBvyM0X9u1iXVLFAAAAAsWZzwSniFQJ0Rhb+pCSbGek1qlTnI3cMqf/FQG0ilVqXte0k3eq5POBRhxYq4u/3kK8hzlAYxy3YwLiLmcUfCA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1gschpRKakuqDG2I9IERowAAAAACAAAAAAAQZgAAAAEAACAAAABjkRDY0ZkMpQ7b8UsFhbliVhKOP/qT3nu8xmayugJZ4AAAAAAOgAAAAAIAACAAAAAOZoEl5TkGv0DAvI5Ae44he5+Y/2MCGManRJz8YSJRtpAAAAAVbEw11i9F3oBEREddr2MkC1OH9ZcGHZo8U6bFs1LnAFAz99AiCDnWDT8GrRk0aQhiHds9LnwBH5bhX45sC3r8F0E06HBAGkPQqcflv8IXZEArWdBJfOw0/buKxkfwpO2mwjeRqlqNr2u+l+z7qXeO6nV38fD/AFD4TdgnAMPIK1qwzfTaozQhtOemR2+H9GFAAAAAQLki4LV8bYK2MwAO3Rl6FoR6f9mMmUkZW5tVRtW6w17bxLH3Spvxf4//LkwUlRXE0BCeRr+KHC3YVZlRhLmFtw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -151,7 +151,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Athletes.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Athletes.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -268,7 +268,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Coaches.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Coaches.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -385,7 +385,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\EntriesGender.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\EntriesGender.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -502,7 +502,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Medals.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Medals.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -619,7 +619,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Teams.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\achraf\tek-up\DS2\Datawarehouse\projet\DATA\Teams.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
