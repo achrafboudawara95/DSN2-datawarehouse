@@ -1,0 +1,112 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6b90d39d-c9ad-4ce8-a0cc-a8762018b72b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW OLYMPICS</ID>
+  <Name>DW OLYMPICS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DW OLYMPICS</DataSourceID>
+  <Schema>
+    <xs:schema id="DW_x0020_OLYMPICS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DW_x0020_OLYMPICS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a8cd5d78-fd71-4b6a-844d-7a1eb857d788">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DimGenre" msprop:design-time-name="33029465-c437-4553-972b-4a3b9dea51d4" msprop:DbTableName="DimGenre" msprop:FriendlyName="DimGenre" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_GENRE" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="5c5446f2-da3d-490b-8c13-12be72db7d9f" msprop:DbColumnName="ID_GENRE" msprop:FriendlyName="ID_GENRE" type="xs:int" />
+                  <xs:element name="GENRE" msprop:design-time-name="fd47e65e-5a04-4d4f-9ade-9b60c9d9a5c5" msprop:DbColumnName="GENRE" msprop:FriendlyName="GENRE">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimDicipline" msprop:design-time-name="2b1f1091-dff5-45a0-b7bb-6440bf6129bb" msprop:DbTableName="DimDicipline" msprop:FriendlyName="DimDicipline" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DICIPLINE" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ebf0e3b5-a393-4712-bbe4-79af6e534469" msprop:DbColumnName="ID_DICIPLINE" msprop:FriendlyName="ID_DICIPLINE" type="xs:int" />
+                  <xs:element name="DICIPLINE" msprop:design-time-name="9fc091e2-5528-41d6-9de8-6514cd608d11" msprop:DbColumnName="DICIPLINE" msprop:FriendlyName="DICIPLINE">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FaitDG" msprop:design-time-name="3efb189b-6261-4e6d-9ead-843fb739e3c8" msprop:DbTableName="FaitDG" msprop:FriendlyName="FaitDG" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DICIPLINE" msprop:design-time-name="719e4edc-0328-4313-bb42-c763181354de" msprop:DbColumnName="ID_DICIPLINE" msprop:FriendlyName="ID_DICIPLINE" type="xs:int" />
+                  <xs:element name="ID_GENRE" msprop:design-time-name="c1350885-f3ef-476e-986e-0c3b30d3b4bd" msprop:DbColumnName="ID_GENRE" msprop:FriendlyName="ID_GENRE" type="xs:int" />
+                  <xs:element name="NB_ATHLETES" msprop:design-time-name="dc3b99ae-0483-42fe-87cc-d794c5fed6d8" msprop:DbColumnName="NB_ATHLETES" msprop:FriendlyName="NB_ATHLETES" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimGenre" />
+          <xs:field xpath="ID_GENRE" />
+        </xs:unique>
+        <xs:unique name="dbo_DimDicipline_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimDicipline" />
+          <xs:field xpath="ID_DICIPLINE" />
+        </xs:unique>
+        <xs:unique name="dbo_FaitDG_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FaitDG" />
+          <xs:field xpath="ID_DICIPLINE" />
+          <xs:field xpath="ID_GENRE" />
+        </xs:unique>
+        <xs:keyref name="FK_DimDicipline_FaitDG" refer="dbo_DimDicipline_Constraint1">
+          <xs:selector xpath=".//dbo_FaitDG" />
+          <xs:field xpath="ID_DICIPLINE" />
+        </xs:keyref>
+        <xs:keyref name="FK_DimGenre_FaitDG" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FaitDG" />
+          <xs:field xpath="ID_GENRE" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <DW_x0020_OLYMPICS xmlns="" />
+  </Schema>
+</DataSourceView>
